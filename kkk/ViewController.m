@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyClass.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +24,7 @@
     self.sum = a + b;
     
     NSLog(@"The result is: %d", sum);
+    MyClass *class = [[MyClass alloc] init];
     
 }
 

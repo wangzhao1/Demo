@@ -14,6 +14,7 @@
 		CE08868C1AEB7F6E00F50C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE08868B1AEB7F6E00F50C91 /* Images.xcassets */; };
 		CE08868F1AEB7F6E00F50C91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE08868D1AEB7F6E00F50C91 /* LaunchScreen.xib */; };
 		CE08869B1AEB7F6E00F50C91 /* kkkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08869A1AEB7F6E00F50C91 /* kkkTests.m */; };
+		CE2C44AC1AEB831C00D4E17F /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C44AB1AEB831C00D4E17F /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CE0886941AEB7F6E00F50C91 /* kkkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kkkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0886991AEB7F6E00F50C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE08869A1AEB7F6E00F50C91 /* kkkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kkkTests.m; sourceTree = "<group>"; };
+		CE2C44AA1AEB831C00D4E17F /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		CE2C44AB1AEB831C00D4E17F /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CE0886831AEB7F6E00F50C91 /* AppDelegate.m */,
 				CE0886851AEB7F6E00F50C91 /* ViewController.h */,
 				CE0886861AEB7F6E00F50C91 /* ViewController.m */,
+				CE2C44AA1AEB831C00D4E17F /* MyClass.h */,
+				CE2C44AB1AEB831C00D4E17F /* MyClass.m */,
 				CE0886881AEB7F6E00F50C91 /* Main.storyboard */,
 				CE08868B1AEB7F6E00F50C91 /* Images.xcassets */,
 				CE08868D1AEB7F6E00F50C91 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2C44AC1AEB831C00D4E17F /* MyClass.m in Sources */,
 				CE0886871AEB7F6E00F50C91 /* ViewController.m in Sources */,
 				CE0886841AEB7F6E00F50C91 /* AppDelegate.m in Sources */,
 				CE0886811AEB7F6E00F50C91 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				CE0886A01AEB7F6E00F50C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0886A11AEB7F6E00F50C91 /* Build configuration list for PBXNativeTarget "kkkTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				CE0886A31AEB7F6E00F50C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
