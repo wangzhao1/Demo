@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 @class MyClass;
+///
 
 @interface ViewController : UIViewController
 
 @property (nonatomic) int sum;
+-(void)sayHello;
 
 @end
 

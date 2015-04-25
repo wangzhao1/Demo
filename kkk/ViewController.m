@@ -22,12 +22,15 @@
     int b = 10;
     
     self.sum = a + b;
-    
+    [self sayHello];
     NSLog(@"The result is: %d", sum);
     MyClass *class = [[MyClass alloc] init];
     
 }
-
+-(void)sayHello
+{
+    NSLog(@"");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
